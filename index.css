@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgba(2, 3, 5, 0.5);
+  width: 50%;
+  border-radius: 0 0 40px 0;
+  position: absolute;
+}
+
+nav ul {
+  overflow: auto;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  font-size: 2.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px rgb(10, 10, 10);
+  padding: 28px 45px 35px 25px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+}
+
+nav li a:hover {
+  color: rgb(4, 93, 115);
+  transition: color 0.6s ease-out;
+}
+
+.curve {
+  background-color: rgba(2, 3, 5, 0.5);
+  width: 48%;
+  padding: 47px 25px;
+  border-radius: 0 0 30px 0;
+}
